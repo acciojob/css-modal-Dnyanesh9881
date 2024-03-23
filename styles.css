@@ -1,1 +1,49 @@
 /*  your css code here. If applicable */
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.modal{
+	min-height:100%;
+     position: fixed;
+	top:0;
+	width:100%;
+background:rgba(117,120,117,0.4);
+	
+}
+
+h2{
+	background-color:#54a653;
+	flex:3;
+	padding:0.55rem
+}
+.close-modal{
+	padding:0.9rem 1.5rem;
+	background-color:red;
+	border:none;
+	color:white;
+}
+.modal-header{
+	display:flex;
+	min-width:100%;
+	justify-content:space-between;
+	align-items:center;
+	
+}
+.modal-body{
+	padding:1rem 0.55rem;
+}
+.modal-content{
+	border:2px solid black;
+	padding:0.6rem;
+     position:absolute;
+	top:60px;
+	left:0;
+	right:0 ;
+	width:70%;
+	background:white;
+}
+.hide{
+	display:none
+}
