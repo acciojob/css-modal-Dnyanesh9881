@@ -10,6 +10,7 @@
      position: fixed;
 	top:0;
 	width:100%;
+	
 background:rgba(117,120,117,0.4);
 	
 }
@@ -44,6 +45,7 @@ h2{
 	right:0 ;
 	width:70%;
 	background:white;
+	margin:auto;
 }
 .hide{
 	display:none
