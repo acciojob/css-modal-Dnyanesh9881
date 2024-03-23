@@ -4,10 +4,10 @@ const buttonOpen=document.querySelector("#openModal");
 const buttonClose=document.querySelector(".close-modal");
 
 buttonOpen.addEventListener("click", ()=>{
-     modal.classList.remove("hide");
+     modal.style.display = 'block';
 	
 })
 buttonClose.addEventListener("click", ()=>{
-     modal.classList.add("hide");
+    modal.style.display = 'none';
 	
 })

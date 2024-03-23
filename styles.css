@@ -6,6 +6,7 @@
 }
 .modal{
 	min-height:100%;
+	display:none;
      position: fixed;
 	top:0;
 	width:100%;
@@ -44,6 +45,6 @@ h2{
 	width:70%;
 	background:white;
 }
-.hide{
+/* .hide{
 	display:none
-}
+} */
